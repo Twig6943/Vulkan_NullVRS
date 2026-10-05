@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Install base dependencies
         run: |
-          pacman -Syu --noconfirm archlinux-keyring gcc make
+          pacman -Syu --noconfirm archlinux-keyring gcc make glibc gcc-libs vulkan-headers vulkan-utility-libraries
           pacman -Syu --noconfirm base-devel
 
           sudo pacman -Syu --noconfirm
