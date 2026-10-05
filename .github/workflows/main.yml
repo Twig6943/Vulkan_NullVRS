@@ -49,3 +49,4 @@ jobs:
           name: NullVRS_Linux_x86_64.tar.gz
           path: |
             *.tar.gz
+        archive: false
